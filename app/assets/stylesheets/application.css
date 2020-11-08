@@ -14,27 +14,64 @@
  *= require_self
  */
 body {
-    color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 15px;
-    line-height: 20px;
     margin: 30px;
 }
 
 p {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 15px;
-    line-height: 20px;
     margin: 30px;
-}
-
-
-
-div {
-  display:bloc;
 }
 
 label {
     display: block;
     font-weight: bold;
+}
+
+.form-group {
+  margin-bottom:10px;
+}
+
+.action {
+  margin-bottom:10px;
+}
+
+.title-index{
+  padding:0 5px;
+}
+
+.body-index {
+  padding:0 5px;
+}
+
+.show {
+  padding:0 5px;
+}
+
+.edit {
+  padding:0 5px;
+}
+
+.destroy {
+  padding:0 5px;
+}
+
+strong {
+  padding-right:5px;
+}
+
+#notice {
+  color:#FF99FF;
+  font-weight:bold;
+}
+
+li {
+  list-style: none;
+}
+
+#error_explanation {
+  color:red;
+  font-weight:bold;
 }
